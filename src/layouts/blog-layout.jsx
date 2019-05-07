@@ -5,7 +5,7 @@ import '../styles/blog.scss'
 const BlogLayout = ({ children }) => (
   <main className="blog-main">
     <Navbar />
-    <section>{children}</section>
+    <section className="blog-content">{children}</section>
   </main>
 )
 

@@ -104,7 +104,12 @@ const SecondPage = () => (
               A movie web application that is aims to helping you find the right movie for you based on your
               preferences. Our chatbot lloyd will help curate content just for you!
             </Card.Text>
-            <Button variant="primary">View Project</Button>
+            <Button variant="primary" target="_blank" href="https://www.yamovie.me/">
+              View Project
+            </Button>
+            <Button variant="primary" target="_blank" href="https://github.com/yamovie">
+              View Source Code
+            </Button>
           </Card.Body>
         </Card>
         <Card style={{ width: '800px', marginBottom: '20px' }}>
