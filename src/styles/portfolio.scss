@@ -1,0 +1,75 @@
+.portfolio {
+  height: 100%;
+  background-color: #c9c9c9;
+  // background-color: #000000;
+  // background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+
+  .portfolio-splash {
+    background-image: url("../images/portfolio-bg.jpg");
+    background-size: cover;
+    position: relative;
+    top: -50px;;
+    height: 600px;
+    width: 100vw;
+    
+    p {
+      position: absolute;
+      top: 30%;
+      left: 40%;
+      color: white;
+      font-size: 45px;
+      font-weight: 600;
+    }
+  }
+
+
+  .resume {
+    color: #454545;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    width: 800px;
+    // margin-left: 18px; 
+    // text-align: left;
+  }
+
+  h3 {
+    margin: 15px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .list-group-flush {
+    .list-group-item {
+      background: none;
+    }
+  }
+
+  .skill-container {
+    // text-align: center;
+  }
+
+  .work-container {
+    // text-align: center;
+  }
+
+  .personal-container {
+    // text-align: center;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .yamovie {
+      width: 180px;
+    }
+
+  }
+
+}
