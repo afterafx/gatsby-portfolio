@@ -2,7 +2,6 @@ import React from 'react'
 // import { Link, StaticQuery, graphql } from 'gatsby'
 // import Img from 'gatsby-image'
 
-import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import ListGroup from 'react-bootstrap/ListGroup'
 import TabContainer from 'react-bootstrap/TabContainer'
@@ -21,7 +20,7 @@ import '../styles/portfolio.scss'
 
 // const { data } = this.props
 
-const SecondPage = () => (
+const Portfolio = () => (
   <div className="portfolio">
     <NavBar />
     <Layout>
@@ -36,18 +35,24 @@ const SecondPage = () => (
         fontFamily: 'Roboto',
       }}
     >
-      <TabContainer id="left-tabs-example" defaultActiveKey="first">
+      <TabContainer id="left-tabs" defaultActiveKey="first">
         <Row>
           <Col sm={3}>
             <Nav variant="pills" className="flex-column">
               <Nav.Item>
-                <Nav.Link eventKey="first">Skills</Nav.Link>
+                <Nav.Link className="tabs" eventKey="first">
+                  Skills
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="second">Experience</Nav.Link>
+                <Nav.Link className="tabs" eventKey="second">
+                  Experience
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link eventKey="third">Qualities</Nav.Link>
+                <Nav.Link className="tabs" eventKey="third">
+                  Qualities
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </Col>
@@ -96,72 +101,84 @@ const SecondPage = () => (
       <h3>Projects</h3>
       <div className="project-container">
         {/* <Img fluid={data.yamovieImage.childImageSharp.fluid} /> */}
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          <Card.Img variant="top" src="../images/yamovie.png" fluid />
-          <Card.Body>
-            <Card.Title>YaMovie</Card.Title>
-            <Card.Text>
+        <div className="projects">
+          <div className="project-item">
+            <h3>YaMovie</h3>
+            <div className="yamovie-image" />
+            <p>
               A movie web application that is aims to helping you find the right movie for you based on your
               preferences. Our chatbot lloyd will help curate content just for you!
-            </Card.Text>
-            <Button variant="primary" target="_blank" href="https://www.yamovie.me/">
+            </p>
+            <Button variant="outline-dark" target="_blank" href="https://www.yamovie.me/">
               View Project
             </Button>
-            <Button variant="primary" target="_blank" href="https://github.com/yamovie">
+            <Button variant="outline-dark" target="_blank" href="https://github.com/yamovie">
               View Source Code
             </Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title>Message Board</Card.Title>
-            <Card.Text>A message app that uses the CRUD (Create, Read, Update, Delete) concept</Card.Text>
-            <Button variant="primary">View Project</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title>Connect Four</Card.Title>
-            <Card.Text>A classic game of connect foßur!</Card.Text>
-            <Button variant="primary">View Project</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title>Eventstream</Card.Title>
-            <Card.Text>
-              An Android application which was created to share photos in a closed event. Users are able to invite Users
-              and share photos that were based on the locations of a certain event.
-            </Card.Text>
-            <Button variant="primary">View Project</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title>Eqvis</Card.Title>
-            <Card.Text>
+          </div>
+          <div className="project-item">
+            <h3>Message Board</h3>
+            <div className="message-image" />
+            <p>A message app that uses the CRUD (Create, Read, Update, Delete) concept</p>
+            {/* <Button variant="primary" target="_blank" href="">
+              View Project
+            </Button> */}
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/message-board">
+              View Source Code
+            </Button>
+          </div>
+          <div className="project-item">
+            <h3>Connect Four</h3>
+            <div className="connect-image" />
+            <p>A classic game of connect four!</p>
+            {/* <Button variant="primary" target="_blank" href="">
+              View Project
+            </Button> */}
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/connect-four">
+              View Source Code
+            </Button>
+          </div>
+          <div className="project-item">
+            <h3>What You See Is What You Get!</h3>
+            <div className="wysiwyg-image" />
+            <p>Simple application where you are able to add/remove headers and paragraphs</p>
+            {/* <Button variant="primary" target="_blank" href="">
+              View Project
+            </Button> */}
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/wysiwyg">
+              View Source Code
+            </Button>
+          </div>
+          <div className="project-item">
+            <h3>Eqvis</h3>
+            <div className="eqvis-image" />
+            <p>
               An R package that was compiled for the use of earthquake visualization. You are able to read in the data.
               You can create an earthquake timeline, and create an interactive map.
-            </Card.Text>
-            <Button variant="primary">View Project</Button>
-          </Card.Body>
-        </Card>
-        <Card style={{ width: '800px', marginBottom: '20px' }}>
-          {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-          <Card.Body>
-            <Card.Title>CourseraPack</Card.Title>
-            <Card.Text>
+            </p>
+            {/* <Button variant="primary" target="_blank" href="">
+              View Project
+            </Button> */}
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/eqvis">
+              View Source Code
+            </Button>
+          </div>
+          <div className="project-item">
+            <h3>CourseraPack</h3>
+            <div className="coursera-image" />
+            <p>
               A package created for Coursera, using data from the US National Highway Traffic Safety Administration. The
               data used is specific to the Fatality Analysis Reporting System. The purpose of this package is to
               demonstrate reading in the data, what years to input, summarize the data and map out the data by state.
-            </Card.Text>
-            <Button variant="primary">View Project</Button>
-          </Card.Body>
-        </Card>
+            </p>
+            {/* <Button variant="primary" target="_blank" href="">
+              View Project
+            </Button> */}
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/courseraPack">
+              View Source Code
+            </Button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -184,4 +201,4 @@ const SecondPage = () => (
 //   />
 // )
 
-export default SecondPage
+export default Portfolio

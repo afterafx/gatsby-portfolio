@@ -1,22 +1,22 @@
 .blog-main {
   height: 100vh;
-  background-color: #EEEEEE;
+  // background-color: #EEEEEE;
 
 .blog-post-container {
   margin: 2em auto;
   width: 800px;
   height: 200px;
   border-radius: 5px;
-  background-color: #FFFFFF;
-  border-style: solid;
-  border-color: #454545;
-  border-width: 1.5px;
+  background-color: #d6dde6;
+  // border-style: solid;
+  // border-color: #454545;
+  // border-width: 1.5px;
 
   .blog-post-link {
     color: black;
 
     h3 {
-      padding: 5px;
+      padding: 15px;
     }
 
     .blog-post-date {
@@ -26,7 +26,7 @@
     }
 
     p {
-      padding: 5px;
+      padding: 15px;
     }
   }
 
@@ -47,4 +47,13 @@
   }
 }
 
+}
+
+.blog-splash {
+  background-image: url("../images/blog-bg.jpg");
+    background-size: cover;
+    position: relative;
+    top: -50px;;
+    height: 250px;
+    width: 100%;
 }

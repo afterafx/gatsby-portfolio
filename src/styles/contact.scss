@@ -1,0 +1,18 @@
+.contact-body {
+  width: 800px;
+  margin: 2em auto;
+  text-align: center;
+
+  .contact-list {
+    list-style-type: none;
+
+    li {
+      display: inline;
+      padding: 10px;
+    }
+  }
+
+  img {
+    border-radius: 50%;
+  }
+}
