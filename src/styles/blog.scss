@@ -1,16 +1,19 @@
 .blog-main {
-  height: 100vh;
-  // background-color: #EEEEEE;
+  height: 100%;
+  background-color: #FFF;
 
 .blog-post-container {
-  margin: 2em auto;
-  width: 800px;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
   height: 200px;
+  color: #454545;
   border-radius: 5px;
-  background-color: #d6dde6;
-  // border-style: solid;
-  // border-color: #454545;
-  // border-width: 1.5px;
+  background-color: #FFF;
+  border-style: solid;
+  border-color: #454545;
+  border-width: 1.5px;
 
   .blog-post-link {
     color: black;
@@ -33,8 +36,10 @@
 }
 
 .blog-content {
-  width: 800px;
-  margin: 2em auto;
+  color: #454545;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
   height: 60%;
   border-radius: 5px;
 
@@ -51,7 +56,8 @@
 
 .blog-splash {
   background-image: url("../images/blog-bg.jpg");
-    background-size: cover;
+  background-size: cover;
+    // background-size: auto;
     position: relative;
     top: -50px;;
     height: 250px;

@@ -26,13 +26,14 @@ const Portfolio = () => (
     <Layout>
       <SEO title="Portfolio" />
     </Layout>
-    <div className="portfolio-splash">
+    {/* <div className="portfolio-splash">
       <p style={{ fontFamily: 'Roboto' }}>my portfolio</p>
-    </div>
+    </div> */}
     <div
       className="resume"
       style={{
         fontFamily: 'Roboto',
+        fontWeight: '200',
       }}
     >
       <TabContainer id="left-tabs" defaultActiveKey="first">
@@ -98,6 +99,7 @@ const Portfolio = () => (
         </Row>
       </TabContainer>
 
+      <hr />
       <h3>Projects</h3>
       <div className="project-container">
         {/* <Img fluid={data.yamovieImage.childImageSharp.fluid} /> */}
