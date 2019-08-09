@@ -24,19 +24,29 @@ const Contact = () => (
         <h4>Email: afterafx@gmail.com</h4>
         <ol className="contact-list">
           <li>
-            <Link href="https://www.facebook.com/AfterAfx">Facebook</Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/AfterAfx">
+              Facebook
+            </a>
           </li>
           <li>
-            <Link href="https://www.linkedin.com/in/kevinbaktiar/">Linkedln</Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kevinbaktiar/">
+              Linkedln
+            </a>
           </li>
           <li>
-            <Link href="https://github.com/afterafx">Github</Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/afterafx">
+              Github
+            </a>
           </li>
           <li>
-            <Link href="https://twitter.com/afterafx">Twitter</Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/afterafx">
+              Twitter
+            </a>
           </li>
           <li>
-            <Link href="https://instagram.com/afterafx">Instagram</Link>
+            <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/afterafx">
+              Instagram
+            </a>
           </li>
         </ol>
       </section>
