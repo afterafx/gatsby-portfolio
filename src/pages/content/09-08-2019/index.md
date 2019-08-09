@@ -33,6 +33,6 @@ Learning how to manage a team to success. I am the product owner of the Talent P
 
 What was effective about my personal workflow was being organized and prepared to help my team be successful in their tasks. My groups workflow was great, this week I was proud that I was able to give tasks and they were able to accomplish them in a timely manner.
 
-### A photo from our client (Michael Santiago) who can from Beckman Coultier
+### A photo from our client (Michael Santiago) who came from Beckman Coultier
 
 <img src="https://i.imgur.com/nQkdZBN.jpg" width="600">
