@@ -4,8 +4,6 @@ date: "2019-08-09"
 title: "Week 7"
 ---
 
-# Week 7 -  Talent Path Pipeline: Sprint 1
-
 #### Talent Path Pipeline
 
 - Monday
