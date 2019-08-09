@@ -4,19 +4,19 @@ date: "2019-08-09"
 title: "Week 7"
 ---
 
-#### Talent Path Pipeline
+#### Talent Path Pipeline 
 
-- Monday
-  - Created and added our user stories to our client side issue board.
-- Tuesday
-  - Created user stories for our backend (server).
-  - Gathering content for our dummy data course (Web Developer Track)
-- Wednesday
-  - Define what data we are going to need for our database. Start database design
-- Thursday
-  - Refine our database
-- Friday
-  - Presentation and Feedback Day!
+- Monday 
+  - Created and added our user stories to our client side issue board. 
+- Tuesday 
+  - Created user stories for our backend (server). 
+  - Gathering content for our dummy data course (Web Developer Track) 
+- Wednesday 
+  - Define what data we are going to need for our database. Start database design 
+- Thursday 
+  - Refine our database 
+- Friday 
+  - Presentation and Feedback Day! 
 
 #### What I learned
 
