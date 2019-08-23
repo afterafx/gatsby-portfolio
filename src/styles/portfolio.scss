@@ -93,6 +93,16 @@
           color: var(--primary);
         }
 
+        .memory-image {
+          background-image: url("../images/memory.jpg");
+          background-size: cover;
+          height: 400px;
+          width: 100%;
+          border: solid;
+          border-color: #454545;
+          border-width: 1px;
+        }
+
         .yamovie-image {
           background-image: url("../images/yamovie.jpg");
           background-size: cover;

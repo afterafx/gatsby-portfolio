@@ -1,7 +1,7 @@
 ---
 path: "/blog"
 date: "2019-08-09"
-title: "Week 7"
+title: "Talent Path - Week 7"
 ---
 
 #### Talent Path Pipeline 

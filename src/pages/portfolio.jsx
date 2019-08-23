@@ -105,6 +105,20 @@ const Portfolio = () => (
         {/* <Img fluid={data.yamovieImage.childImageSharp.fluid} /> */}
         <div className="projects">
           <div className="project-item">
+            <h3>Memory Game</h3>
+            <div className="memory-image" />
+            <p>
+              A game web application of the classic concentration game. The task is to pair matching cards to win the
+              game.
+            </p>
+            <Button variant="outline-dark" target="_blank" href="https://afterafx-memory-game.netlify.com">
+              View Project
+            </Button>
+            <Button variant="outline-dark" target="_blank" href="https://github.com/afterafx/memory-game">
+              View Source Code
+            </Button>
+          </div>
+          <div className="project-item">
             <h3>YaMovie</h3>
             <div className="yamovie-image" />
             <p>
